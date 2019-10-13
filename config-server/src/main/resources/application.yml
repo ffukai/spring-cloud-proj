@@ -1,0 +1,20 @@
+server:
+  port: 8601
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ffukai/customer
+          search-paths: chd
+          username: 348196333@qq.com
+          password: Ffk897911
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8001/eureka/
+
+# ≤‚ ‘µÿ÷∑£∫ http://localhost:8601/customer/dev/master/
+
