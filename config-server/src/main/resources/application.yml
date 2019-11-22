@@ -16,3 +16,8 @@ eureka:
     service-url:
       defaultZone: http://peer1:8001/eureka/
 
+<<<<<<< HEAD
+=======
+# ²âÊÔµØÖ·£º http://localhost:8601/customer/dev/master/
+
+>>>>>>> a615e558329baeb5d161cbec32f4bd662e965301

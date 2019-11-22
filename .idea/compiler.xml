@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="zuul" />
         <module name="eureka-server" />
         <module name="feign" />
@@ -13,14 +14,26 @@
         <module name="customer" />
         <module name="ribbon" />
         <module name="hystrix" />
+=======
+        <module name="hystrix" />
+        <module name="zuul" />
+        <module name="eureka-server" />
+        <module name="spring-cloud-proj" />
+        <module name="customer" />
+        <module name="ribbon" />
+        <module name="feign" />
+>>>>>>> a615e558329baeb5d161cbec32f4bd662e965301
         <module name="spring-security" />
         <module name="config-server" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
     <bytecodeTargetLevel>
       <module name="mp" target="1.8" />
       <module name="service-auth2" target="1.8" />
     </bytecodeTargetLevel>
+=======
+>>>>>>> a615e558329baeb5d161cbec32f4bd662e965301
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -29,7 +42,10 @@
       <module name="eureka-server" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+<<<<<<< HEAD
       <module name="mp" options="-parameters" />
+=======
+>>>>>>> a615e558329baeb5d161cbec32f4bd662e965301
       <module name="ribbon" options="-parameters" />
       <module name="spring-security" options="-parameters" />
       <module name="zuul" options="-parameters" />
