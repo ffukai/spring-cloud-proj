@@ -1,0 +1,4 @@
+diff a/config-server/src/main/resources/application.yml b/config-server/src/main/resources/application.yml	(rejected hunks)
+@@ -17,6 +17,7 @@
+       defaultZone: http://peer1:8001/eureka/
+ 

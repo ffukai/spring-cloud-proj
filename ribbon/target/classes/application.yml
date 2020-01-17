@@ -1,0 +1,10 @@
+server:
+    port: 8201
+spring:
+  application:
+    name: ribbon
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8001/eureka/
+
